@@ -280,6 +280,38 @@ a:hover {
   text-decoration: underline;
 }
 
+/* ─── REVIEWS ───────────────────────────────────────────── */
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 24px;
+}
+
+.review-card {
+  background: var(--gray-light);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 8px 8px 0;
+  padding: 24px 28px;
+  margin: 0;
+}
+
+.review-quote {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #333;
+  font-style: italic;
+  margin-bottom: 16px;
+}
+
+.review-attribution {
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--gray-mid);
+  letter-spacing: 0.03em;
+}
+
 /* ─── FAVORITES ─────────────────────────────────────────── */
 
 .favorites-category {
